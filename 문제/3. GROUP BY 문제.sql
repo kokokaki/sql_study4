@@ -1,7 +1,6 @@
 -- 실습문제
 
 -- 1. employees테이블에서 각 사원의 부서별 부서 번호(department_id)와 평균 급여(salary)를 조회하세요. 
-
 SELECT 
     NVL(department_id, 0) AS dep_id
      , ROUND(AVG(salary), 2) AS avg_salary
