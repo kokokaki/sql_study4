@@ -1,5 +1,6 @@
 
 
+
 SELECT 
     employee_id, first_name, department_id, manager_id
 FROM employees;
